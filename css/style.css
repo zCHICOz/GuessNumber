@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*,
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+    background: #fafafa;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6%;
+    background: #3ea2b9;
+    opacity: 0.9;
+    color: #fff;
+    font-size: 1.8em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 620px;
+    height: 300px;
+    background-image: linear-gradient(-60deg, #a9ebfa 20%, #feb6f7 80%);
+    border-radius: 12px;
+}
+
+.content form label {
+    font-size: 1.7em;
+    margin-top: 4%;
+    font-weight: 700;
+    margin-bottom: 6%;
+}
+
+.content form input {
+    background: #96468e;
+    width: 70%;
+    height: 45px;
+    margin-bottom: 6%;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 15px;
+    outline: none;
+    transition: background 0.2s ease-in;
+}
+
+.content form input:hover {
+    background: #3ea2b9;
+}
+
+.content form button {
+    background: #3ea2b9;
+    border-radius: 6px;
+    border: 0;
+    height: 40px;
+    width: 35%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.content form button:hover {
+    opacity: 0.8;
+}
+
+.container .result {
+   width: 23%;
+   margin-top: 3%;
+   border-radius: 6px;
+   padding: 15px;
+   color: #fff;
+   background: #96468e;
+   text-align: center; 
+}
+
+.container .result h2:last-child {
+    margin-top: 5%;
+}
+
+.container .reiniciar button {
+    background: #3ea2b9;
+    border-radius: 6px;
+    color: #fff;
+    padding: 12px;
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 30%;
+    transition: all 0.3s ease-in;
+    display: none;
+}
+
+.container .reiniciar button:hover {
+    opacity: 0.8;
+}
